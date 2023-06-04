@@ -6,13 +6,13 @@ Data is from Kaggle competition <a href="https://www.kaggle.com/competitions/sto
 
 I try to predict daily sales for the thousands of product families sold at Favorita stores located in Ecuador. The dataset in from Kaggle and contains six dataframes:
 
- - The training data, comprising time series of features store number, family, and onpromotion as well as the target sales.
+- The training data, comprising time series of features store number, family, and onpromotion as well as the target sales.
 - The test data, having the same features as the training data. You will predict the target sales for the dates in this file.
 - Store metadata, including city, state, type, and cluster.
 - Daily oil price. Includes values during both the train and test data timeframes. (Ecuador is an oil-dependent country and it's economical health is highly vulnerable to shocks in oil prices.)
-- Holidays and Events, with metadata
+- Holidays and Events, with metadata.
 
-## Result: 
+## Results: 
 
 <img width="1011" alt="image" src="https://github.com/lamlam98765/Daily_sales_SARIMAX-vs-Prophet/assets/92735387/b5f5caf5-aba2-4089-a3c1-4eaab3f4c672">
 

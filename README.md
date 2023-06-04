@@ -1,7 +1,7 @@
 # Forecasting daily sales/ SARIMAX vs Prophet
 
 
-Data is from Kaggle competition <a href="https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data">Store Sales - Time Series Forecasting</a>. You can also visit my workbook <a href="https://www.kaggle.com/code/thilananhnguyn/sarimax-beats-prophet-y-all">workbook</a> there.
+Data is from Kaggle competition <a href="https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data">Store Sales - Time Series Forecasting</a>. You can also visit my <a href="https://www.kaggle.com/code/thilananhnguyn/sarimax-beats-prophet-y-all">workbook</a> there.
 
 
 I try to predict daily sales for the thousands of product families sold at Favorita stores located in Ecuador. The dataset in from Kaggle and contains six dataframes:
@@ -18,6 +18,6 @@ I try to predict daily sales for the thousands of product families sold at Favor
 
 ## Insights:
 
-SARIMAX model performs better than Prophet model, proving that with time series done carefully it's worth it. 
+Surprisingly SARIMAX model performs better than Prophet one, proving that with time series done carefully it's worth it. 
 
 In this case SARIMAX and Prophet perform well I don't have any issue, but we can also try LSTM too.
